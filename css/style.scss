@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.listDesign {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.colorName {
+    position: absolute;
+    margin: 0;
+    left: 80px;
+    top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listItem {
+    position: relative;
+    left: 0px;
+    height: 40px;
+    width: 140px;
+    rotate: -90deg;
+    transform-origin: bottom left;
+    line-height: 35px;
+    text-align: center;
+    opacity: 0%;
+}
+
+.listPull {
+    position: relative;
+    left: 0px;
+    rotate: 0deg;
+    opacity: 100%;
+}
+
+.menuIcon {
+    width: 50px;
+}
